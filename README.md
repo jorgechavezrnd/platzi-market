@@ -23,4 +23,6 @@
 - `heroku create platzimarketjorge`
 - `heroku addons:create heroku-postgresql`
 - `heroku config`
-- Now we go to PgAdmin with the credentials that the last command shows
+- Now we go to PgAdmin with the credentials that the last command shows and create the tables and/or insert data
+- `git push heroku master`
+- For open the application in the browser: `heroku open`
